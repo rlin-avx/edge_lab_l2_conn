@@ -1,0 +1,18 @@
+#AWS DX L2 Conn provisioning
+#Plan & Apply
+tf plan -var 'client_id=<your equinix clinet_id>' -var 'client_secret=<your equinix client_secret' -var 'fabric_notification_users=["user1@domain.com", "user2@domain.com"]' -var 'fabric_connection_name=<your connection name>' -var 'aws_account_id=<aws account id>' -out plan.out
+tf apply plan.out
+
+#Destroy
+tf destroy -var 'client_id=<your equinix clinet_id>' -var 'client_secret=<your equinix client_secret' -var 'fabric_notification_users=["user1@domain.com", "user2@domain.com"]' -var 'fabric_connection_name=<your connection name>' -var 'aws_account_id=<aws account id>' -auto-approve
+rm plan.out
+
+
+#AZ ER L2 Conn provisioning
+#Plan & Apply
+tf plan -var 'client_id=<your equinix clinet_id>' -var 'client_secret=<your equinix client_secret' -var 'fabric_notification_users=["user1@domain.com", "user2@domain.com"]' -var 'fabric_connection_name=<your connection name>' -var 'fabric_service_token_id=<your Zzure ER service-key' -out plan.out
+tf apply plan.out 
+
+#Destroy
+tf destroy -var 'client_id=<your equinix clinet_id>' -var 'client_secret=<your equinix client_secret' -var 'fabric_notification_users=["user1@domain.com", "user2@domain.com"]' -var 'fabric_connection_name=<your connection name>' -var 'fabric_service_token_id=<your Zzure ER service-key' -auto-approve
+rm plan.out
