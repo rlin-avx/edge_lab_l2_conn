@@ -1,2 +1,15 @@
 .DS_Store
 README.private
+AWS-POD1/.terraform.lock.hcl
+AWS-POD1/.terraform/modules/modules.json
+AWS-POD1/.terraform/providers/registry.terraform.io/equinix/equinix/1.8.1/darwin_arm64/CHANGELOG.md
+AWS-POD1/.terraform/providers/registry.terraform.io/equinix/equinix/1.8.1/darwin_arm64/LICENSE
+AWS-POD1/.terraform/providers/registry.terraform.io/equinix/equinix/1.8.1/darwin_arm64/README.md
+AWS-POD1/.terraform/providers/registry.terraform.io/equinix/equinix/1.8.1/darwin_arm64/terraform-provider-equinix_v1.8.1
+AWS-POD1/.terraform/providers/registry.terraform.io/equinix/equinix/1.8.1/darwin_arm64/equinix-migration-tool/equinix-migration-tool
+AWS-POD1/.terraform/providers/registry.terraform.io/equinix/equinix/1.8.1/darwin_arm64/equinix-migration-tool/README.md
+AWS-POD1/.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5
+AWS-POD1/terraform.tfstate
+AWS-POD1/.terraform.tfstate.lock.info
+AWS-POD1/plan.out
+AWS-POD1/terraform.tfstate.backup
